@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kubernates-simple-pod
+  labels:
+    app: kubernates-simple-pod
+spec:
+  containers:
+    - name: kubernates-simple-pod
+      image: saein/simple-container-app:latest
+      ports:
+        - containerPort: 8080
