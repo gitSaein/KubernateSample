@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f179ebc-b1d8-42a0-bb04-7033cf48fceb" name="Default Changelist" comment="" />
+    <list default="true" id="7f179ebc-b1d8-42a0-bb04-7033cf48fceb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blue-green-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
@@ -19,6 +27,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1hnfqhKLyUhSB2a5H00zxDHdiig" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,8 +48,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danal\IdeaProjects\KubernateSample" />
       <recent name="C:\Users\danal\kube_" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,6 +76,9 @@
       <workItem from="1600651970008" duration="104000" />
       <workItem from="1600652090991" duration="7252000" />
       <workItem from="1600666117167" duration="77000" />
+      <workItem from="1600666283069" duration="1839000" />
+      <workItem from="1600733205163" duration="321000" />
+      <workItem from="1600735632230" duration="4776000" />
     </task>
     <servers />
   </component>
@@ -69,14 +95,22 @@
     </state>
     <state x="477" y="318" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600666171737" />
     <state x="2397" y="318" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600661704360" />
-    <state x="838" y="417" key="Github.ShareDialog" timestamp="1600666189980">
+    <state x="838" y="417" key="Github.ShareDialog" timestamp="1600666301062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="838" y="417" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600666189980" />
+    <state x="838" y="417" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600666301062" />
+    <state x="707" y="224" key="Github.UntrackedFilesDialog" timestamp="1600666305198">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="224" key="Github.UntrackedFilesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600666305198" />
     <state x="2381" y="164" width="1399" height="711" key="SettingsEditor" timestamp="1600652129760">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="164" width="1399" height="711" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600652129760" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600680528243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600680528243" />
     <state x="1996" y="163" key="new project wizard" timestamp="1600661828522">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
