@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: kubernates-simple-pod
-      image: saein/simple-container-app:latest
+      image: saeinlee/docker-sample:0.0.1
       ports:
-        - containerPort: 8080
+        - containerPort: 8081
