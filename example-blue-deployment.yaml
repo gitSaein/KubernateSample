@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example-blue-deployment-c39f076
+  name: example-blue-deployment
 spec:
   replicas: 2
   template:
@@ -9,7 +9,6 @@ spec:
       labels:
         name: example-blue-deployment
         app: example-blue-deployment
-        version: c39f076
     spec:
       containers:
         - name: example-blue-deployment

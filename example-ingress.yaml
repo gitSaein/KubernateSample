@@ -1,15 +1,15 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: -ingress
+  name: example-ingress
   annotations:
     nginx.ingress.kubernates.io/rewrite-target: /
 spec:
   rules:
-    - host: 127.0.0.1:8080
+    - host: prod-api.bemily.net
       http:
         paths:
-          - path: /api/hostname-service
+          - path: /hostname-service
             backend:
-              serviceName: hostname-service
-              servicePort: 80
+              serviceName: example-service
+              servicePort: 8081
