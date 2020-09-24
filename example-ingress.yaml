@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernates.io/rewrite-target: /
 spec:
   rules:
-    - host: prod-api.bemily.net
+    - host: prod-api.test.net
       http:
         paths:
           - path: /hostname-service

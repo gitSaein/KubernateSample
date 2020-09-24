@@ -33,3 +33,8 @@ https://blog.voidmainvoid.net/122
 
 git clone https://github.com/kubernetes/ingress-nginx.git
 
+
+
+####6. blue & green deploy
+
+https://www.youtube.com/watch?v=jxhpTGQ484Y
