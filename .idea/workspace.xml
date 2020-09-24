@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f179ebc-b1d8-42a0-bb04-7033cf48fceb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example-blue-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example-ingress.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="7f179ebc-b1d8-42a0-bb04-7033cf48fceb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +65,7 @@
       <workItem from="1600765243460" duration="1795000" />
       <workItem from="1600820274848" duration="4245000" />
       <workItem from="1600824643255" duration="1657000" />
-      <workItem from="1600910853071" duration="4390000" />
+      <workItem from="1600910853071" duration="4569000" />
     </task>
     <task id="LOCAL-00001" summary="tomcat 적용중">
       <created>1600748954496</created>
@@ -86,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600825165368</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="deployment setting">
+      <created>1600926913492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600926913492</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,7 +97,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tomcat 적용중" />
     <MESSAGE value="pod create and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="pod create and push" />
+    <MESSAGE value="deployment setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="deployment setting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2506" y="198" key="#Inspections" timestamp="1600765393676">
@@ -106,10 +109,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2601" y="320" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600653135469" />
-    <state x="2637" y="72" key="CommitChangelistDialog2" timestamp="1600825164693">
+    <state x="2637" y="72" key="CommitChangelistDialog2" timestamp="1600926912742">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2637" y="72" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600825164693" />
+    <state x="2637" y="72" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600926912742" />
     <state x="477" y="318" key="FileChooserDialogImpl" timestamp="1600666171737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -127,11 +130,11 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="164" width="1399" height="711" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600765359946" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600825168473">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600926916186">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600680528243" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600825168473" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600926916186" />
     <state x="1996" y="163" key="new project wizard" timestamp="1600661828522">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
