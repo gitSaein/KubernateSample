@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: example-blue-deployment-c39f076
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        name: example-blue-deployment
+        app: example-blue-deployment
+        version: c39f076
+    spec:
+      containers:
+        - name: example-blue-deployment
+          image: saeinlee/docker-sample:0.0.1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8081
+              name: http
+              protocol: TCP
+  selector:
+    matchLabels:
+      app: example-blue-deployment
