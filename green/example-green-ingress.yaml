@@ -11,3 +11,4 @@ spec:
         paths:
           -  backend:
               serviceName: hello-green
+              servicePort: 8081

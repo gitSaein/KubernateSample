@@ -32,3 +32,4 @@ spec:
             timeoutSeconds: 1
   selector:
     matchLabels:
+      app: hello
