@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f179ebc-b1d8-42a0-bb04-7033cf48fceb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example-ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,9 @@
         <option name="mavenHome" value="C:\Users\danal\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.6948.69\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="1hnfqhKLyUhSB2a5H00zxDHdiig" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,23 +50,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danal\IdeaProjects\KubernateSample\green" />
+      <recent name="C:\Users\danal\IdeaProjects\KubernateSample\blue" />
+      <recent name="C:\Users\danal\IdeaProjects\KubernateSample" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danal\IdeaProjects\KubernateSample" />
       <recent name="C:\Users\danal\kube_" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +79,13 @@
       <workItem from="1600820274848" duration="4245000" />
       <workItem from="1600824643255" duration="1657000" />
       <workItem from="1600910853071" duration="4569000" />
-      <workItem from="1600927015010" duration="7188000" />
+      <workItem from="1600927015010" duration="7803000" />
+      <workItem from="1600993458826" duration="4407000" />
+      <workItem from="1601001264956" duration="15917000" />
+      <workItem from="1601251462184" duration="377000" />
+      <workItem from="1602722722596" duration="19760000" />
+      <workItem from="1602806584711" duration="8474000" />
+      <workItem from="1603446936638" duration="2552000" />
     </task>
     <task id="LOCAL-00001" summary="tomcat 적용중">
       <created>1600748954496</created>
@@ -124,11 +122,28 @@
       <option name="project" value="LOCAL" />
       <updated>1600935652087</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ingress setting">
+      <created>1600937900912</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600937900912</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -136,26 +151,33 @@
     <MESSAGE value="pod create and push" />
     <MESSAGE value="deployment setting" />
     <MESSAGE value="ingress setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="ingress setting" />
+    <MESSAGE value="ingress controller setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="ingress controller setting" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2506" y="198" key="#Inspections" timestamp="1600765393676">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="586" y="198" key="#Inspections" timestamp="1602742849003">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="586" y="198" key="#Inspections/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602742849003" />
     <state x="2506" y="198" key="#Inspections/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600765393675" />
     <state x="2601" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600653135469">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2601" y="320" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600653135469" />
-    <state x="2637" y="72" key="CommitChangelistDialog2" timestamp="1600935651479">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2637" y="72" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600935651479" />
-    <state x="477" y="318" key="FileChooserDialogImpl" timestamp="1600666171737">
+    <state x="717" y="72" key="CommitChangelistDialog2" timestamp="1603447122433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="717" y="72" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603447122433" />
+    <state x="2637" y="72" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601022796840" />
+    <state x="349" y="63" key="DiffContextDialog" timestamp="1602750207704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="349" y="63" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602750207704" />
+    <state x="2397" y="318" key="FileChooserDialogImpl" timestamp="1601001191336">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
     <state x="477" y="318" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600666171737" />
-    <state x="2397" y="318" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600661704360" />
+    <state x="2397" y="318" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601001191336" />
     <state x="838" y="417" key="Github.ShareDialog" timestamp="1600666301062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -164,15 +186,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="224" key="Github.UntrackedFilesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600666305198" />
-    <state x="2381" y="164" width="1399" height="711" key="SettingsEditor" timestamp="1600765359946">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="461" y="164" width="1399" height="711" key="SettingsEditor" timestamp="1603448353884">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603448353884" />
     <state x="2381" y="164" width="1399" height="711" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600765359946" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600937887902">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602749744076">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602749744076" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600680528243" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600937887902" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601022798884" />
+    <state x="-1850" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602812591751">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1850" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602812591751" />
+    <state x="668" y="252" width="584" height="536" key="find.popup" timestamp="1602810807311">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="252" width="584" height="536" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602810807311" />
+    <state x="2588" y="252" width="584" height="536" key="find.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601015332743" />
     <state x="1996" y="163" key="new project wizard" timestamp="1600661828522">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -185,5 +218,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600654350840" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602813896371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602813896371" />
   </component>
 </project>
