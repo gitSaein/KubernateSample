@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f179ebc-b1d8-42a0-bb04-7033cf48fceb" name="Default Changelist" comment="">
+    <list default="true" id="7f179ebc-b1d8-42a0-bb04-7033cf48fceb" name="Default Changelist" comment="ingress controller setting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,14 +50,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\danal\IdeaProjects\KubernateSample\green" />
-      <recent name="C:\Users\danal\IdeaProjects\KubernateSample\blue" />
-      <recent name="C:\Users\danal\IdeaProjects\KubernateSample" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danal\IdeaProjects\KubernateSample" />
       <recent name="C:\Users\danal\kube_" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danal\IdeaProjects\KubernateSample\nginx" />
+      <recent name="C:\Users\danal\IdeaProjects\KubernateSample\green" />
+      <recent name="C:\Users\danal\IdeaProjects\KubernateSample\blue" />
+      <recent name="C:\Users\danal\IdeaProjects\KubernateSample" />
     </key>
   </component>
   <component name="RunManager">
@@ -174,27 +175,30 @@
     </state>
     <state x="586" y="198" key="#Inspections/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602742849003" />
     <state x="2506" y="198" key="#Inspections/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600765393675" />
-    <state x="2601" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600653135469">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2601" y="320" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600653135469" />
-    <state x="717" y="72" key="CommitChangelistDialog2" timestamp="1603447122433">
+    <state x="681" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603704357193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="717" y="72" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603447122433" />
+    <state x="681" y="320" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603704357193" />
+    <state x="2601" y="320" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600653135469" />
+    <state x="717" y="72" key="CommitChangelistDialog2" timestamp="1603702037364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="72" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603702037364" />
     <state x="2637" y="72" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601022796840" />
     <state x="349" y="63" key="DiffContextDialog" timestamp="1602750207704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="349" y="63" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602750207704" />
-    <state x="2397" y="318" key="FileChooserDialogImpl" timestamp="1601001191336">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="477" y="318" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600666171737" />
-    <state x="2397" y="318" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601001191336" />
-    <state x="838" y="417" key="Github.ShareDialog" timestamp="1600666301062">
+    <state x="477" y="318" key="FileChooserDialogImpl" timestamp="1603701686828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="477" y="318" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603701686828" />
+    <state x="477" y="318" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600666171737" />
+    <state x="2397" y="318" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601001191336" />
+    <state x="838" y="417" key="Github.ShareDialog" timestamp="1603702054088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="417" key="Github.ShareDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603702054088" />
     <state x="838" y="417" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600666301062" />
     <state x="707" y="224" key="Github.UntrackedFilesDialog" timestamp="1600666305198">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -220,6 +224,10 @@
     </state>
     <state x="668" y="252" width="584" height="536" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602810807311" />
     <state x="2588" y="252" width="584" height="536" key="find.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601015332743" />
+    <state x="740" y="419" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603702028848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="419" key="git4idea.remote.GitConfigureRemotesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603702028848" />
     <state x="1996" y="163" key="new project wizard" timestamp="1600661828522">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

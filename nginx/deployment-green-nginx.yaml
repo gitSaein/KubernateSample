@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-deployment-green
+  labels:
+    app: test-pod
+spec:
+  selector:
+    matchLabels:
+      app: test-pod
+  template:
+    metadata:
+      labels:
+        app: test-pod
+        color: green
+    spec:
+      containers:
+        - name: test-pod
+          image: nginx:1.9.1
+          ports:
+            - containerPort: 80
