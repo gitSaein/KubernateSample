@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
@@ -12,19 +11,3 @@ spec:
         paths:
           -  backend:
               serviceName: hello-blue
-=======
-apiVersion: extensions/v1beta1
-kind: Ingress
-metadata:
-  name: hello
-  annotations:
-    kubernetes.io/ingress.class: treafik
-spec:
-  rules:
-    - host: dely.com
-      http:
-        paths:
-          -  backend:
-              serviceName: hello-blue
->>>>>>> cf11248137102dc93e01ed3b915ea84b88e6e2de
-              servicePort: 8081
