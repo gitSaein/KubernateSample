@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: v1
 kind: ReplicationController
 metadata:
@@ -16,4 +17,24 @@ spec:
         - name: nginx
           image: nginx
           ports:
+=======
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: nginx
+spec:
+  replicas: 3
+  selector:
+    app: nginx
+  template:
+    metadata:
+      name: nginx
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: nginx
+          ports:
+>>>>>>> cf11248137102dc93e01ed3b915ea84b88e6e2de
             - containerPort: 80

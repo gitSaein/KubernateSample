@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -35,4 +36,43 @@ spec:
             timeoutSeconds: 1
   selector:
     matchLabels:
+=======
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-green
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: hello
+        track: stable
+        version: green
+    spec:
+      containers:
+        - name: hello
+          image: saeinlee/docker-sample:green
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8081
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: 8081
+              scheme: HTTP
+            initialDelaySeconds: 5
+            periodSeconds: 15
+            timeoutSeconds: 5
+          readinessProbe:
+            httpGet:
+              port: 8081
+              path: /readiness
+              scheme: HTTP
+            initialDelaySeconds: 5
+            timeoutSeconds: 1
+  selector:
+    matchLabels:
+>>>>>>> cf11248137102dc93e01ed3b915ea84b88e6e2de
       app: hello
