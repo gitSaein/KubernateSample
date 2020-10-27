@@ -38,4 +38,8 @@ kubectl expose deploy deployment/example-blue-service --name service/example-blu
 
 ####6. blue & green deploy
 
+kubectl apply -f blue-deploy.yaml
+kubectl apply -f green-deploy.yaml
+kubectl apply -f service.yaml (color: green이면 바라보는 곳이 green, blue로 바꾸면 롤백 됨)
+
 https://www.youtube.com/watch?v=jxhpTGQ484Y

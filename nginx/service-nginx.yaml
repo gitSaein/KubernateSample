@@ -8,4 +8,4 @@ spec:
       targetPort: 8080
   selector:
     app: test-pod
-    color: blue
+    color: green

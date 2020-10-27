@@ -47,7 +47,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -62,13 +62,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,6 +103,7 @@
       <workItem from="1602806584711" duration="8474000" />
       <workItem from="1603446936638" duration="2552000" />
       <workItem from="1603694636934" duration="600000" />
+      <workItem from="1603757782702" duration="2333000" />
     </task>
     <task id="LOCAL-00001" summary="tomcat 적용중">
       <created>1600748954496</created>
@@ -162,6 +165,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ingress-nginx" />
+    </ignored-roots>
     <MESSAGE value="tomcat 적용중" />
     <MESSAGE value="pod create and push" />
     <MESSAGE value="deployment setting" />
@@ -204,10 +210,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="224" key="Github.UntrackedFilesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600666305198" />
-    <state x="461" y="164" width="1399" height="711" key="SettingsEditor" timestamp="1603448353884">
+    <state x="461" y="164" width="1399" height="711" key="SettingsEditor" timestamp="1603757884499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603448353884" />
+    <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603757884499" />
     <state x="2381" y="164" width="1399" height="711" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600765359946" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602749744076">
       <screen x="0" y="0" width="1920" height="1040" />
